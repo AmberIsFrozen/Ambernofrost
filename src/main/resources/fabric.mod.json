@@ -16,7 +16,7 @@
   "license": "MIT",
   "icon": "assets/ambernofrost/icon.png",
 
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "com.lx862.ambernofrost.Init"
