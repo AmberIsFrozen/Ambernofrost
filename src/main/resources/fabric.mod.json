@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ambernofrost",
+  "version": "${version}",
+
+  "name": "AmberNoFrost",
+  "description": "Disable the Frost Walking water-freezing effect.",
+  "authors": [
+    "Amber without frost :("
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/AmberFrost/Ambernofrost"
+  },
+
+  "license": "MIT",
+  "icon": "assets/ambernofrost/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.lx862.ambernofrost.Init"
+    ]
+  },
+  "mixins": [
+    "ambernofrost.mixin.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.4"
+  }
+}
